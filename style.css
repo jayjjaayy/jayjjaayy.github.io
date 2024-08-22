@@ -1,0 +1,536 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section{
+	padding: 80px 0;
+}
+
+.container{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	text-align: left;
+}
+
+.containertight{
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	text-align: center;
+}
+
+.containertight p{
+	margin-bottom: 50px;
+}
+
+h1{
+	font-family: "Jaro", sans-serif;
+	font-weight: 100;
+	font-optical-sizing: auto;
+	font-size: 90px;
+	line-height: 75px;
+	margin-bottom: 60px;
+	text-align: center;
+	color: #ffffff;
+}
+
+h2{
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	font-optical-sizing: auto;
+	font-size: 28px;
+	margin-bottom: 15px;
+	color: #000000;
+}
+
+h3{
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	font-optical-sizing: auto;
+	font-size: 18px;
+	margin-bottom: 15px;
+	color: #000000;
+}
+
+
+h4{
+	font-family: "Raleway", sans-serif;
+	font-weight: bolder;
+	font-optical-sizing: auto;
+	font-size: 18px;
+	margin-bottom: 15px;
+	color: #000000;
+}
+
+p{
+	font-family: "Raleway", sans-serif;
+	font-weight: normal;
+	font-optical-sizing: auto;
+	font-size: 16px;
+	margin-bottom: 35px;
+	color: #032501;
+	line-height: 25px;
+}
+
+header{
+	    background: #e3f5e3;
+}
+
+.header-flex{
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	align-items: center;
+}
+
+.header-list{
+	display: flex;
+	gap: 40px;
+	list-style: none;
+}
+
+.logo{
+	width: 30px;
+}
+
+.logo img{
+	max-width: 100%;
+}
+
+.hamburger{
+	width: 30px;
+	display: none;
+}
+
+.hamburger img{
+	max-width: 100%;
+}
+
+nav a{
+	color: #032501;
+	font-family: Raleway;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.section-one {
+    background-image: url(https://litrpgreads.com/wp-content/uploads/2023/12/dnd-backgrounds-5e-one-dnd.jpg);
+    background-color: rgb(5 20 4 / 75%);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.section-one h3{
+	color: #ffffff;
+	margin-bottom: 10px;
+	letter-spacing: 3px;
+}
+
+hr {
+    display: inline-block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #e3f5e3;
+    width: 80%;
+}
+
+.mainbtn{
+	display: inline-block;
+	font-family: raleway;
+	font-weight: bold;
+	font-optical-sizing: auto;
+	letter-spacing: 3px;
+	font-size: 18px;
+	text-align: center;
+	color: #e3f5e3;
+	text-decoration: none;
+	padding: 10px 15px;
+	background-color: rgb(61 98 75 / 80%);
+	border-radius: 2px;
+}
+
+.section-two{
+	background: #e3f5e3;
+}
+
+.section-two h2{
+	font-size: 25px;
+	word-spacing: 3px;
+}
+
+.section-two h3{
+	font-size: 16px;
+	letter-spacing: 3px;
+}
+
+.section-two h4{
+	font-size: 16px;
+}
+
+.parent-flex{
+	display: flex;
+	gap: 50px;
+	align-items: center;
+}
+
+.left{
+	width: 50%;
+}
+
+.right{
+	width: 50%;
+	height: 325px;
+	background-image: url(https://dicebag.co.uk/cdn/shop/files/20240207_205840_eeab50e1-1cfa-4a9a-83b1-6716df030318.webp?v=1707405771);
+	background-size: cover;
+	background-position: center;
+}
+
+.secondbtn{
+	display: inline-block;
+	font-family: raleway;
+	font-weight: normal;
+	font-optical-sizing: auto;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+	background-color: #032501;
+	border-radius: 2px;
+}
+
+.card-grid{
+	display: grid;
+	grid-template-columns: repeat(3, 2fr);
+	grid-gap: 20px 20px;
+	padding: 80px 0;
+}
+
+.section-three{
+	background-image: url(https://litrpgreads.com/wp-content/uploads/2023/11/dnd-background-5e-2023-best.jpg);
+	background-color: rgb(5 20 4 / 80%);
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-position: center;
+	padding: 10px 0;
+}
+
+.section-three h4{
+	color: #ffffff;
+	border-bottom: 1px solid #e3f5e3;
+}
+
+.section-three p{
+	color: #e3f5e3;
+}
+
+.section-four{
+	background: #e3f5e3;
+	padding: 80px 0;
+}
+
+.section-four h2{
+	font-weight: bold;
+}
+
+.section-four p{
+	margin-bottom: 10px;
+}
+
+.blog-grid{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30px;
+	padding: 0px 20px;
+	margin-top: 50px;
+}
+
+.blog-image{
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 20px;
+}
+
+.card-blog:nth-of-type(1) .blog-image{
+	background-image: url(https://i0.wp.com/creativegamemechanics.com/wp-content/uploads/2023/10/DND-Theme-Cover.png?fit=1080%2C1080&ssl=1);
+}
+
+.card-blog:nth-of-type(2) .blog-image{
+	background-image: url(https://www.tribality.com/wp-content/uploads/2019/05/cathleen-mcallister-azteccomp61-750x375.jpg);
+}
+
+.tag{
+	display: inline-block;
+	font-family: raleway;
+	font-weight: lighter;
+	font-optical-sizing: auto;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	padding: 5px 15px;
+	background-color: #032b01;
+	margin-bottom: 20px;
+}
+
+.section-five{
+	padding: 0px 0px;
+	background-color: #e3f5e3;
+}
+
+.image-grid{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 0px 0px;
+}
+
+.book-image{
+	height: 255px;
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+}
+
+.card-image:nth-of-type(1) .book-image{
+	background-image: url(https://dynamic.indigoimages.ca/v1/books/books/0786965606/1.jpg?width=810&maxHeight=810&quality=85);
+}
+
+.card-image:nth-of-type(2) .book-image{
+	background-image: url(https://m.media-amazon.com/images/I/81KDO+UBeNL._AC_UF1000,1000_QL80_.jpg);
+}
+
+.card-image:nth-of-type(3) .book-image{
+	background-image: url(https://dynamic.indigoimages.ca/v1/books/books/0786966114/1.jpg?width=810&maxHeight=810&quality=85);
+}
+
+.card-image:nth-of-type(4) .book-image{
+	background-image: url(https://m.media-amazon.com/images/I/81KCP1mGlSL._AC_UF1000,1000_QL80_.jpg);
+}
+
+.card-image:nth-of-type(5) .book-image{
+	background-image: url(https://redriotgames.ca/cdn/shop/products/9780786965618_large.jpg?v=1658245696);
+}
+
+.card-image:nth-of-type(6) .book-image{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSodUb0kj-ULCIE_oN3TaG0sDUVWwcxUE9lSg&s);
+}
+
+
+.footer{
+	background-color: #032501;
+	background-position: center;
+	padding: 5px 0;
+}
+
+.footer p{
+	font-weight: 200;
+	font-size: 10px;
+	margin-bottom: 5px;
+	color: #ffffff;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+
+
+@media only screen and (max-width: 992px){
+
+}
+
+@media only screen and (max-width: 768px){
+
+	section{
+		padding: 50px 0;
+	}
+
+	h1{
+		font-size: 85px;
+		margin-bottom: 30px;
+	}
+
+	.section-one{
+		padding: 60px 0;
+	}
+
+	.section-one h3{
+		margin-bottom: 2px;
+		letter-spacing: 3px;
+		font-size: 17px;
+	}
+
+	hr{
+		width: 75%;
+	}
+
+	.section-two h2{
+		font-size: 20px;
+		word-spacing: 3px;
+	}
+
+	.section-two h3{
+		margin-bottom: 10px;
+	}
+
+	.section-two p{
+		margin-bottom: 10px;
+	}
+
+	.parent-flex{
+		display: flex;
+		gap: 30px;
+		align-items: center;
+	}	
+
+	.secondbtn{
+		font-size: 18px;
+		padding: 8px 12px;
+		border-radius: 2px;
+	}
+	.card-grid{
+		padding: 50px 0;
+	}
+
+	.section-four{
+		padding: 50px 0;
+	}
+
+	.blog-grid{
+		grid-gap: 20px;
+		padding: 0px 30px;
+		margin-top: 50px;
+	}
+
+	.blog-image{
+		height: 200px;
+	}
+
+	.book-image{
+		height: 190px;
+	}
+}
+
+@media only screen and (max-width: 576px){
+
+
+	nav{
+		display: none;
+	}
+
+	.hamburger{
+		display: block;
+	}
+
+	section{
+		padding: 30px 0;
+	}
+
+	.container{
+		text-align: center;
+	}
+
+	h1{
+		font-size: 80px;
+		font-weight: lighter;
+		margin-bottom: 30px;
+	}
+
+	.section-one{
+		padding: 60px 0;
+	}
+
+	.section-one h3{
+		margin-bottom: 2px;
+		letter-spacing: 3px;
+		font-size: 15px;
+	}
+
+	hr{
+		width: 70%;
+	}
+
+	.mainbtn{
+		font-size: 15px;
+		padding: 8px 11px;
+	}
+
+	.section-two h3{
+		font-size: 15px;
+	}
+
+	.section-two h4{
+		font-size: 15px;
+	}
+
+	.section-two p{
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+
+	.parent-flex{
+		flex-direction: column-reverse;
+		gap: 25px;
+	}
+
+	.left{
+		width: 100%;
+	}
+
+	.right{
+		width: 100%;
+		height: 200px;
+	}
+
+	.secondbtn{
+		font-size: 15px;
+	}
+
+	.card-grid{
+		display: grid;
+		grid-template-columns: repeat(2, 3fr);
+		grid-gap: 10px 30px;
+		padding: 30px 0;
+		text-align: left;
+	}
+
+	.section-four{
+		padding: 50px 0;
+	}
+
+	.blog-grid{
+		grid-template-columns: repeat(1, 2fr);
+		grid-gap: 30px;
+		padding: 0px 10px;
+		margin-top: 30px;
+		text-align: left;
+	}
+
+	.blog-image{
+		height: 180px;
+	}
+
+	.tag{
+		font-size: 15px;
+		padding: 5px 11px;
+	}
+
+	.image-grid{
+		display: grid;
+		grid-template-columns: repeat(3, 2fr);
+		grid-gap: 0px 0px;
+	}
+
+	.book-image{
+		height: 100px;
+	}
+
+}
+
